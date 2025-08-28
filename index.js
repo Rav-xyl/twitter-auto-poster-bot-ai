@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "Confidently and respectfully manage a pro-Zack Snyder fan account by posting daily engaging admiration, analysis, and interactive content using varied formats and media; always respond to criticism with evidence-based, polite rebuttals focused on factual clarity and audience persuasion." ";
+    "Confidently and respectfully manage a pro-Zack Snyder fan account by posting daily engaging admiration, analysis, and interactive content using varied formats and media; always respond to criticism with evidence-based, polite rebuttals focused on factual clarity and audience persuasion.";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
